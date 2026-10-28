@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "title": "Freebies — Free Small-Business Tools",
+    "subtitle": "Invoicing, bookkeeping, scheduling, and contracts — free tools for small businesses, authors, and resellers.",
+    "publisher": "Asdale Dynamics, LLC",
+    "note": "Costs and plan limits change over time; check each official site before signing up. Listings are educational and are not legal, tax, or medical advice.",
+    "noAffiliate": "No affiliate links. Every link points to the tool's official website."
+  },
+  "categories": [
+    { "key": "invoicing", "label": "Invoicing", "description": "Send professional invoices and get paid." },
+    { "key": "bookkeeping", "label": "Bookkeeping", "description": "Track income, expenses, and financial reports." },
+    { "key": "scheduling", "label": "Scheduling", "description": "Let clients book appointments without back-and-forth email." },
+    { "key": "contracts", "label": "Contracts", "description": "Create, send, and e-sign agreements." }
+  ],
+  "tools": [
+    {
+      "id": "wave-invoicing",
+      "name": "Wave Invoicing",
+      "category": "invoicing",
+      "description": "Unlimited free invoicing with customizable templates and payment tracking.",
+      "cost": "Free — unlimited invoices; fees only if you accept online payments",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.waveapps.com/invoicing",
+      "steps": [
+        "Create a free Wave account.",
+        "Add your business name, address, and logo.",
+        "Create a new invoice, add your customer and line items.",
+        "Send by email or share a payment link.",
+        "Mark invoices as paid and view reports in your dashboard."
+      ]
+    },
+    {
+      "id": "zoho-invoice",
+      "name": "Zoho Invoice",
+      "category": "invoicing",
+      "description": "Free online invoicing for small businesses, with estimates, time tracking, and a client portal.",
+      "cost": "Free for small businesses; unlimited invoices",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.zoho.com/invoice/",
+      "steps": [
+        "Sign up for a free Zoho Invoice account.",
+        "Set up your organization and invoice template.",
+        "Add a customer.",
+        "Create and send an invoice (or estimate).",
+        "Track payment status and send reminders."
+      ]
+    },
+    {
+      "id": "invoice-ninja",
+      "name": "Invoice Ninja",
+      "category": "invoicing",
+      "description": "Open-source invoicing, expenses, and payments. Free to self-host; paid cloud plans available.",
+      "cost": "Free to self-host; paid cloud plans",
+      "platform": "Web; self-host (Docker)",
+      "officialLink": "https://invoiceninja.com/",
+      "steps": [
+        "Sign up for the cloud free tier, or self-host with Docker.",
+        "Add your company details and logo.",
+        "Create a client record.",
+        "Create an invoice and send it.",
+        "Record payments when received."
+      ]
+    },
+    {
+      "id": "square-invoices",
+      "name": "Square Invoices",
+      "category": "invoicing",
+      "description": "Send invoices from your phone or computer. Free to send; standard card processing fees apply when customers pay.",
+      "cost": "Free to send; processing fees apply to paid invoices",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://squareup.com/invoices",
+      "steps": [
+        "Sign up for a Square account.",
+        "Go to Invoices and create an invoice.",
+        "Add your customer, items, and due date.",
+        "Send by email or text message.",
+        "Track payments in your Square Dashboard."
+      ]
+    },
+    {
+      "id": "paypal-invoicing",
+      "name": "PayPal Invoicing",
+      "category": "invoicing",
+      "description": "Create and send invoices through PayPal. Free to send; fees apply when the customer pays.",
+      "cost": "Free to create and send; payment processing fees apply",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.paypal.com/us/invoice",
+      "steps": [
+        "Log in to PayPal and go to Invoicing.",
+        "Click Create invoice.",
+        "Add your customer and items; set tax or discount.",
+        "Preview and send the invoice.",
+        "Track payments in Activity."
+      ]
+    },
+    {
+      "id": "wave-accounting",
+      "name": "Wave Accounting",
+      "category": "bookkeeping",
+      "description": "Free accounting software for small businesses: income and expense tracking, receipt scanning, and basic reports.",
+      "cost": "Free accounting; fees for payments and payroll add-ons",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.waveapps.com/",
+      "steps": [
+        "Create a free Wave account.",
+        "Set up your chart of accounts (or keep the defaults).",
+        "Import transactions or connect your bank (optional).",
+        "Categorize income and expenses.",
+        "Run Profit & Loss and other reports."
+      ]
+    },
+    {
+      "id": "gnucash",
+      "name": "GnuCash",
+      "category": "bookkeeping",
+      "description": "Free, open-source desktop accounting with double-entry bookkeeping, for personal and small-business use.",
+      "cost": "Free, open source",
+      "platform": "Windows, Mac, Linux",
+      "officialLink": "https://www.gnucash.org/",
+      "steps": [
+        "Download and install GnuCash for your system.",
+        "Create a new file and set up your accounts.",
+        "Enter income and expenses as transactions.",
+        "Reconcile accounts against your statements.",
+        "Run reports such as Profit & Loss."
+      ]
+    },
+    {
+      "id": "manager-io",
+      "name": "Manager.io",
+      "category": "bookkeeping",
+      "description": "Free desktop accounting for one business, with invoicing, bills, inventory, and reports.",
+      "cost": "Free desktop edition (one business); cloud edition is paid",
+      "platform": "Windows, Mac, Linux",
+      "officialLink": "https://www.manager.io/",
+      "steps": [
+        "Download the free desktop edition.",
+        "Create a new business file.",
+        "Set up your chart of accounts and tax codes.",
+        "Record sales, purchases, and payments.",
+        "Generate financial reports."
+      ]
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "category": "bookkeeping",
+      "description": "Free spreadsheets you can use as a simple income and expense ledger. Start blank or use a bookkeeping template.",
+      "cost": "Free with a Google account",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://sheets.google.com/",
+      "steps": [
+        "Open Google Sheets and start a new spreadsheet (or choose a budget template).",
+        "Create columns for date, description, category, income, and expense.",
+        "Log each transaction.",
+        "Use SUM formulas to total by category.",
+        "Reconcile against your bank statement monthly."
+      ]
+    },
+    {
+      "id": "express-accounts",
+      "name": "NCH Express Accounts",
+      "category": "bookkeeping",
+      "description": "Free accounting software for small businesses with fewer than five employees.",
+      "cost": "Free for businesses with fewer than five employees",
+      "platform": "Windows, Mac",
+      "officialLink": "https://www.nchsoftware.com/accounts/",
+      "steps": [
+        "Download and install the free edition.",
+        "Set up your company and accounts.",
+        "Enter sales, payments, and expenses.",
+        "Run financial reports.",
+        "Back up your data file regularly."
+      ]
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "category": "scheduling",
+      "description": "Appointment scheduling that lets clients pick a time on your calendar. Free tier includes one event type.",
+      "cost": "Free tier (one event type); paid plans add more",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://calendly.com/",
+      "steps": [
+        "Create a free Calendly account.",
+        "Connect your calendar (Google, Outlook, etc.).",
+        "Set your availability hours.",
+        "Create an event type (for example, consultation).",
+        "Share your booking link with clients."
+      ]
+    },
+    {
+      "id": "setmore",
+      "name": "Setmore",
+      "category": "scheduling",
+      "description": "Free online appointment scheduling with a customizable booking page and reminders.",
+      "cost": "Free tier available; paid plans for more staff and features",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.setmore.com/",
+      "steps": [
+        "Sign up for a free Setmore account.",
+        "Add your services and staff.",
+        "Set your business hours and availability.",
+        "Customize your booking page.",
+        "Share the booking link or embed it on your site."
+      ]
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "category": "scheduling",
+      "description": "Free calendar for scheduling appointments, blocking time, and sharing availability with clients.",
+      "cost": "Free with a Google account",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://calendar.google.com/",
+      "steps": [
+        "Open Google Calendar.",
+        "Create an event and add your client as a guest.",
+        "Set the date, time, and reminders.",
+        "Add a video call or location (optional).",
+        "Save and send the invitation."
+      ]
+    },
+    {
+      "id": "simplymeet",
+      "name": "SimplyMeet",
+      "category": "scheduling",
+      "description": "Free meeting scheduling with a personal booking page and calendar sync.",
+      "cost": "Free tier available; paid plans for more event types",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://simplymeet.me/",
+      "steps": [
+        "Create a free SimplyMeet account.",
+        "Connect your calendar.",
+        "Set your availability.",
+        "Create a meeting type.",
+        "Share your booking link."
+      ]
+    },
+    {
+      "id": "dropbox-sign",
+      "name": "Dropbox Sign",
+      "category": "contracts",
+      "description": "E-signatures for contracts and agreements. Free tier allows three signature requests per month.",
+      "cost": "Free tier: 3 signature requests per month; paid plans for more",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.dropbox.com/sign",
+      "steps": [
+        "Create a free Dropbox Sign account.",
+        "Upload your contract.",
+        "Add signature and date fields.",
+        "Add signer email addresses.",
+        "Send for signature and track status."
+      ]
+    },
+    {
+      "id": "pandadoc",
+      "name": "PandaDoc",
+      "category": "contracts",
+      "description": "Document builder and e-signature platform for proposals, contracts, and quotes.",
+      "cost": "Free tier available; paid plans for advanced features",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.pandadoc.com/",
+      "steps": [
+        "Create a free PandaDoc account.",
+        "Upload a contract or choose a template.",
+        "Add signature, date, and text fields.",
+        "Send to the client for signature.",
+        "Track when it is opened and signed."
+      ]
+    },
+    {
+      "id": "jotform-sign",
+      "name": "Jotform Sign",
+      "category": "contracts",
+      "description": "Turn forms into signable documents. Free Starter plan includes 5 forms and 100 submissions per month.",
+      "cost": "Free tier available (Starter: 5 forms / 100 submissions per month)",
+      "platform": "Web, iOS, Android",
+      "officialLink": "https://www.jotform.com/sign/",
+      "steps": [
+        "Create a free Jotform account.",
+        "Build a document or upload a PDF.",
+        "Add signature fields.",
+        "Publish and share the signing link.",
+        "Collect and download signed copies."
+      ]
+    },
+    {
+      "id": "signwell",
+      "name": "SignWell",
+      "category": "contracts",
+      "description": "Simple e-signatures for contracts. Free tier allows three documents per month.",
+      "cost": "Free tier: 3 documents per month; paid plans for unlimited",
+      "platform": "Web",
+      "officialLink": "https://signwell.com/",
+      "steps": [
+        "Create a free SignWell account.",
+        "Upload your document.",
+        "Add signers and signature fields.",
+        "Send for signature.",
+        "Download the executed contract and audit trail."
+      ]
+    },
+    {
+      "id": "signaturely",
+      "name": "Signaturely",
+      "category": "contracts",
+      "description": "Free e-signature tool for contracts and agreements.",
+      "cost": "Free tier: 3 signature requests per month",
+      "platform": "Web",
+      "officialLink": "https://www.signaturely.com/",
+      "steps": [
+        "Create a free Signaturely account.",
+        "Upload your contract.",
+        "Add signature and date fields and signers.",
+        "Send for signature.",
+        "Store and download the completed document."
+      ]
+    }
+  ]
+}

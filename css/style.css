@@ -1,0 +1,295 @@
+/* Freebies — Free Small-Business Tools
+   Asdale Dynamics, LLC */
+:root {
+  --bg: #fbfaf4;
+  --surface: #ffffff;
+  --text: #2b3035;
+  --muted: #6b7075;
+  --brand: #3d5a5e;
+  --brandHover: #324a4e;
+  --accent: #c8874e;
+  --border: #e6e0d2;
+  --chipBg: #edf2f2;
+  --chipText: #3d5a5e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.site-header {
+  background: var(--brand);
+  color: #fff;
+  padding: 2rem 0 1rem;
+}
+
+.site-header .wrapper {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.site-dek {
+  font-size: 0.85rem;
+  color: #c9d6d8;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-header h1 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.site-desc {
+  font-size: 1.05rem;
+  color: #d7e2e3;
+  max-width: 620px;
+}
+
+main {
+  padding: 2rem 0 3rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-label {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-right: 0.35rem;
+}
+
+input[type="search"] {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+  min-width: 230px;
+  flex: 1 1 220px;
+}
+
+input[type="search"]::placeholder {
+  color: #a8aeb2;
+}
+
+select,
+button {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button#reset {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+}
+
+button#reset:hover {
+  background: var(--brandHover);
+}
+
+.count {
+  margin: 0 0 1.5rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid section > h2 {
+  grid-column: 1 / -1;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--brand);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: var(--chipBg);
+  color: var(--chipText);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.desc {
+  font-size: 0.92rem;
+  color: #44494d;
+}
+
+.facts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.facts strong {
+  color: var(--text);
+}
+
+.details {
+  margin-top: auto;
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+details {
+  font-size: 0.88rem;
+  color: #44494d;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+  background: #f4f7f7;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--brand);
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details ol {
+  margin-top: 0.5rem;
+  padding-left: 1.1rem;
+}
+
+details li {
+  margin-bottom: 0.3rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: auto;
+  padding: 0.6rem 1rem;
+  background: var(--brand);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background: var(--brandHover);
+}
+
+.none {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+}
+
+.site-footer {
+  background: #f3efe5;
+  border-top: 1px solid var(--border);
+  padding: 2rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin-bottom: 0.85rem;
+}
+
+.site-footer strong {
+  color: var(--text);
+}
+
+.site-footer a {
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+  .toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  input[type="search"] {
+    min-width: 0;
+    width: 100%;
+  }
+  select,
+  button {
+    width: 100%;
+  }
+}
