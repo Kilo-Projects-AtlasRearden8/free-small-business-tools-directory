@@ -279,6 +279,36 @@ details li {
   text-decoration: underline;
 }
 
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+  .site-header {
+    background: #111 !important;
+    color: #fff;
+  }
+  .site-header h1,
+  .site-header .site-desc,
+  .site-header .site-dek {
+    color: #fff;
+  }
+  .card {
+    border: 1px solid #999;
+    break-inside: avoid;
+  }
+  .btn {
+    background: #111 !important;
+    color: #fff !important;
+    border: 1px solid #111;
+  }
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75rem;
+    color: #555;
+  }
+}
+
 @media (max-width: 520px) {
   .toolbar {
     flex-direction: column;
